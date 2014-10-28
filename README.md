@@ -6,7 +6,7 @@
 HTML5 Boilerplate is a professional front-end template for building fast,
 robust, and adaptable web apps or sites.
 Test Rebuild
-Test Again
+Test for Lab PC
 This project is the product of many years of iterative development and combined
 community knowledge. It does not impose a specific development philosophy or
 framework, so you're free to architect your code in the way that you want.
