@@ -278,3 +278,24 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+#wrapper {
+	width:960px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid;
+}
+
+#content {
+	width:545px;
+	float:left;
+	padding-left:24px;
+	padding-right:24px;
+}
+#sidebar {
+	width:367px;
+	float:right;
+}
+#footer {
+	clear:both;
+}
