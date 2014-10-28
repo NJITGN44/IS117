@@ -270,6 +270,7 @@ textarea {
    margin-left: auto;
    margin-right: auto;
    border: 1px solid;
+   background-color:white;
 }
 h1 {
   font-size: 220%;
@@ -322,7 +323,7 @@ h6 {
 
 }
 #content {
-  width: 545px;
+  width: 544px;
   float: left;
   padding-left: 24px;
   padding-right: 24px;
@@ -339,7 +340,7 @@ p.first {
 #article_title {
   height: 87px;
   line-height: 87px;
-
+  text-align:center;
 }
 
 #sidebar {
@@ -350,4 +351,10 @@ p.first {
 #footer {
   clear: both;
 }
+.footer {
+ text-align:center;
+ }
 
+body {
+background-color:gray;
+}
