@@ -265,6 +265,11 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+/* Code starts here */
+
+
+
 #wrapper {
    width: 960px;
    margin-left: auto;
@@ -322,8 +327,8 @@ h6 {
   text-decoration: underline;
 
 }
-#content {
-  width: 544px;
+#content  {
+  width: 545px;
   float: left;
   padding-left: 24px;
   padding-right: 24px;
@@ -344,16 +349,49 @@ p.first {
 }
 
 #sidebar {
-  background-color: red;
   width: 367px;
   float:left;
+  text-align:center;
+  position:fixed;
+  margin-left:582px;
 }
+
+#sidebar h6 {
+  color:red;
+  }
+
+#navibar {
+ text-align:left;
+ }
+
+#navibar a {
+ text-decoration:none;
+ }
+
+#navibar ul {
+  margin:0px;
+ }
+
+#navibar li {
+  display:block;
+ }
+
+#navibar a:hover {
+ text-decoration:underline;
+ }
+
+.navigation {
+  text-align:center;
+
+}
+
 #footer {
   clear: both;
 }
 .footer {
  text-align:center;
  }
+
 
 body {
 background-color:gray;
