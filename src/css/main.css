@@ -10,14 +10,13 @@
 
 html {
     color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: "Times New Roman", Georgia, Serif;
 }
 
 /*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
+ * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
@@ -46,14 +45,12 @@ hr {
 }
 
 /*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
  */
 
 audio,
 canvas,
-iframe,
 img,
 svg,
 video {
@@ -79,10 +76,10 @@ textarea {
 }
 
 /* ==========================================================================
-   Browser Upgrade Prompt
+   Browse Happy prompt
    ========================================================================== */
 
-.browserupgrade {
+.browsehappy {
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
@@ -114,8 +111,7 @@ textarea {
    ========================================================================== */
 
 /*
- * Hide visually and from screen readers:
- * http://juicystudio.com/article/screen-readers-display-none.php
+ * Hide visually and from screen readers: h5bp.com/u
  */
 
 .hidden {
@@ -124,8 +120,7 @@ textarea {
 }
 
 /*
- * Hide only visually, but have it available for screen readers:
- * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ * Hide only visually, but have it available for screen readers: h5bp.com/v
  */
 
 .visuallyhidden {
@@ -140,9 +135,8 @@ textarea {
 }
 
 /*
- * Extends the .visuallyhidden class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
  */
 
 .visuallyhidden.focusable:active,
@@ -204,8 +198,7 @@ textarea {
 
 /* ==========================================================================
    Print styles.
-   Inlined to avoid the additional HTTP request:
-   http://www.phpied.com/delay-loading-your-print-css/
+   Inlined to avoid the additional HTTP request: h5bp.com/r
    ========================================================================== */
 
 @media print {
@@ -213,8 +206,7 @@ textarea {
     *:before,
     *:after {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -248,13 +240,8 @@ textarea {
         page-break-inside: avoid;
     }
 
-    /*
-     * Printing Tables:
-     * http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
-
     thead {
-        display: table-header-group;
+        display: table-header-group; /* h5bp.com/t */
     }
 
     tr,
@@ -278,24 +265,89 @@ textarea {
         page-break-after: avoid;
     }
 }
-
 #wrapper {
-	width:960px;
-	margin-left: auto;
-	margin-right: auto;
-	border: 1px solid;
+   width: 960px;
+   margin-left: auto;
+   margin-right: auto;
+   border: 1px solid;
+}
+h1 {
+  font-size: 220%;
+}
+h2 { 
+  font-size: 200%;
+}
+h3 {
+  font-size: 180%;
+}
+h4 {
+  font-size: 160%;
+}
+h5 {
+  font-size: 140%;
+}
+h6 {
+  font-size: 120%;
 }
 
-#content {
-	width:545px;
-	float:left;
-	padding-left:24px;
-	padding-right:24px;
+
+.logo {
+  height: 86px;
+  width: 86px;
+
 }
+#primary_links {
+  height: 53px;
+  line-height: 53px;
+
+}
+#primary_links li {
+  display: inline;
+
+}
+#primary_links ul {
+  margin: 0px;
+}
+#primary_links .mid {
+ margin-left: 35px;
+ margin-right: 35px;
+
+}
+#primary_links a {
+  text-decoration: none;
+}
+
+#primary_links a:hover {
+  text-decoration: underline;
+
+}
+#content {
+  width: 545px;
+  float: left;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+p.first {
+  margin-top: 0px;
+}
+.codercat {
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+#article_title {
+  height: 87px;
+  line-height: 87px;
+
+}
+
 #sidebar {
-	width:367px;
-	float:right;
+  background-color: red;
+  width: 367px;
+  float:left;
 }
 #footer {
-	clear:both;
+  clear: both;
 }
+
